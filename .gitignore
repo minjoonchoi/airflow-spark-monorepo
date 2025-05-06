@@ -1,0 +1,72 @@
+# Python 관련
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# 가상 환경
+.env
+.venv
+venv/
+ENV/
+env/
+
+# Airflow 관련
+airflow/logs/
+airflow/*.log
+airflow/.env
+airflow/airflow.db
+airflow/webserver_config.py
+airflow/airflow.cfg
+
+# Spark 관련
+spark-warehouse/
+metastore/warehouse/
+metastore_db/
+derby.log
+
+# 데이터 파일 (필요에 따라 주석 해제)
+# *.csv
+# *.parquet
+# *.delta
+# *.json
+
+# IDE 관련
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+.ipynb_checkpoints/
+
+# 로그 파일
+logs/
+*.log
+
+# Docker 관련
+.docker/
+docker-compose.override.yml
+
+# uv 관련 
+.uv/
+
+# 임시 파일
+tmp/
+temp/
+.cache/

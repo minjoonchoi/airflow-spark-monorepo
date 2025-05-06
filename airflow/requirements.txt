@@ -1,0 +1,7 @@
+# Airflow 및 관련 패키지
+apache-airflow==3.0.0
+apache-airflow-providers-apache-spark>=5.2.1
+apache-airflow-providers-docker>=4.3.1
+
+# PySpark 관련 패키지는 scripts/requirements-spark.txt로 이동
+# PySpark 작업은 Docker 컨테이너에서 실행 
